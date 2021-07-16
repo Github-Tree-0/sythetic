@@ -43,11 +43,11 @@ if __name__=='__main__':
 
     # Choose a dataset
     #DATA_FOLDERNAME = './data/bunny/bunny_lambert/'    # Lambertian diffuse with cast shadow
-    DATA_FOLDERNAME = '../sythetic/src/'    # Lambertian diffuse without cast shadow
+    DATA_FOLDERNAME = '../src/'    # Lambertian diffuse without cast shadow
 
-    LIGHT_FILENAME = '../sythetic/lights.npy'
-    MASK_FILENAME = '../sythetic/mask.png'
-    GT_NORMAL_FILENAME = '../sythetic/gt_normal.npy'
+    LIGHT_FILENAME = '../lights.npy'
+    MASK_FILENAME = '../mask.png'
+    GT_NORMAL_FILENAME = '../gt_normal.npy'
 
     np.random.seed(1)
     # Semi-calibrated photometric stereo
